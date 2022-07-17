@@ -1,0 +1,142 @@
+html {
+    height: 100%;
+    background-color: black;
+}
+
+.text {
+    word-wrap: break-word;
+    width: 330px;
+}
+
+.center {
+	width: 1300px; /* Ширина элемента в пикселах */
+    padding: 100px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+}
+
+
+.block{                         /*блоки */
+    margin-top: 0px;           /* сам блок, тип его размер*/
+    margin-left: 0 auto;        /* отступ с левой стороны */
+    white-space:nowrap;         /* делает блоки вертикально ( в строку)*/
+	
+}
+
+.blue{                           /* первый блок */
+    height: 725px;             /*высота данного (первого) блока*/
+    background-color: white;     /*фон внутри блока*/
+    display:inline-block;        /* делает блоки в одну строку или не делит их на весь сайт вниз*/
+    margin-right: 80px;          /* делает расстояние между блоками*/
+	    /*рамка блока*/
+    border-radius: 30px;         /* округляет рамку блока*/
+    padding: 10px;
+    
+    
+}
+
+.zagolovok {                                                /* заголовок */
+	color: black;                                     /* цвет текста */
+	font-family: Comic Sans MS, Comic Sans, cursive;  /* шрифт текста */
+	font-size: 25px;                                  /* размер текста */
+    
+}
+
+.opisanie {                                                 /* описание */
+	color: gray;                                        /* цвет текста */                              
+	font-size: 17px;                                    /* размер текста */
+	font-family: ;    /* шрифт текста */
+    
+}
+
+
+.knopka {                                  /* кнопка или button */
+	width: 330px;                       /* удлинение кнопки или ее растягиваем*/
+	/*background: linear-gradient(Blue, MediumSlateBlue);  /* цвет кнопки*/
+    background-image: linear-gradient(to right ,darkmagenta, darkmagenta, DarkOrchid , DarkOrchid);
+	color:white;                         /* цвет текста*/                           
+	padding: 10px;                       /* делает высоту больше у кнопки*/
+	border-radius: 30px;                /* круглые углы*/
+    display: block;                      /* делает блочным*/
+    margin: 0 auto;                      /* сдвиг кнопки по середине*/
+    border: none;
+}
+button {
+   background-image: linear-gradient(to right ,darkmagenta, darkmagenta, DarkOrchid , DarkOrchid); 
+}
+button:hover {
+    background-image: linear-gradient(to right, Brown, Brown, red, red);
+    color: white;
+    
+}
+
+
+.yellow{
+    height: 752px;             /*высота данного (второго) блока*/
+    background-color: white;    /*фон внутри блока*/
+    display:inline-block;      /* делает блоки в одну строку или не делит их на весь сайт вниз*/
+    margin-right: 80px;         /* делает расстояние между блоками*/
+	   /*рамка блока*/
+    border-radius: 30px; 
+    padding: 10px;                /* округляет рамку блока*/
+     
+    
+}
+
+.zagolovok_2 {                                                /* заголовок */
+	color: black;                                       /* цвет текста */
+	font-family: Comic Sans MS, Comic Sans, cursive;    /* шрифт текста */
+	font-size: 25px;                                    /* размер текста */
+	
+}
+.opisanie_2 {                                                  /* описание */
+	color: gray;                                            /* цвет текста */
+	font-family: Comic Sans MS, Comic Sans, cursive;       /* шрифт текста */
+	font-size: 17px;                                        /* размер текста */
+	
+}
+
+.knopka_2 {                                     /* кнопка или button */
+	background-image: linear-gradient(to right ,darkmagenta, darkmagenta, DarkOrchid , DarkOrchid);       /* цвет кнопки*/
+	color:white;                             /* цвет текста */
+	padding: 10px;                           /* больше высота кнопки*/
+    width: 330px;                            /* удлиняет кнопку */
+    border-radius: 30px;                     /* округление углов */
+    display: block;                          /* делает блочным */
+    margin: 0 auto;
+    border: none;/* сдвиг кнопки на середину */
+}
+
+ 
+.red{                            /* третий блок */ 
+    height: 752px;               /*высота данного (третьего) блока*/                
+    background-color: white;     /*фон внутри блока*/
+    display:inline-block;        /* делает блоки в одну строку или не делит их на весь сайт вниз*/
+        /*рамка блока*/
+    border-radius: 30px;        /* округляет рамку блока*/
+    padding: 10px;
+    
+}
+
+.zagolovok_3 {                                              /* заголовок */
+    color: black;                                      /* цвет текста */
+    font-family: Comic Sans MS, Comic Sans, cursive;   /* шрифт текста */
+    font-size: 25px;                                  /* размер текста */
+}
+
+.opisanie_3 {                                                /* описание */
+	font-family: Comic Sans MS, Comic Sans, cursive;    /* шрифт текста */
+    color: gray;                                        /* цвет текста */
+	font-size: 17px;                                    /* размер текста */
+    
+}
+
+.knopka_3 {                                   /* кнопка или button */
+	padding: 10px;                         /* делает высоту больше у кнопки*/
+	border-radius: 30px;                   /* округление углов */
+	width: 330px;                         /* удлинение кнопки или ее растягиваем*/
+    background-image: linear-gradient(to right ,darkmagenta, darkmagenta, DarkOrchid , DarkOrchid);    /* цвет кнопки*/
+    color: white;                          /* цвет текста */
+    display: block;                       /* делает блочным */
+    margin: 0 auto;                       /* сдвиг кнопки на середину */
+    border: none;
+}
